@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 class MessengerDesign extends StatelessWidget {
@@ -58,6 +60,7 @@ class MessengerDesign extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
               padding:EdgeInsets.all(5.0),
@@ -80,7 +83,754 @@ class MessengerDesign extends StatelessWidget {
 
                 ],
               ),
-            )
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                children: [
+                  Container(
+                    width:65,
+                    child: Column(
+                      children: [
+                        Stack(
+          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              radius: 25.0,
+                              backgroundImage: NetworkImage(
+                                  "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/241676442_4279329582181382_2167552377324842210_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHolzVJU_kgehe0RERMWOUmkTuL3-uGRVeRO4vf64ZFV7MnMjlK29bRTA9Ifkrmb3TFDs4FcZMA0qjwQGnTKImI&_nc_ohc=euUN5OD0tCoAX9q1ZtX&_nc_ht=scontent.fcai19-8.fna&oh=00_AT-wghk5d0X2W_388n09iWyHoOWqSsA2GRAcLeBw1F90nA&oe=6301A72E"),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 6,
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.green,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          height: 6,
+                        ),
+                        Text(
+                            "Mahmoud Magdy Mohamed",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        )
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    width: 15,
+                  ),
+                  Container(
+                    width:65,
+                    child: Column(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              radius: 25.0,
+                              backgroundImage: NetworkImage(
+                                  "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/241676442_4279329582181382_2167552377324842210_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHolzVJU_kgehe0RERMWOUmkTuL3-uGRVeRO4vf64ZFV7MnMjlK29bRTA9Ifkrmb3TFDs4FcZMA0qjwQGnTKImI&_nc_ohc=euUN5OD0tCoAX9q1ZtX&_nc_ht=scontent.fcai19-8.fna&oh=00_AT-wghk5d0X2W_388n09iWyHoOWqSsA2GRAcLeBw1F90nA&oe=6301A72E"),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 6,
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.green,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          height: 6,
+                        ),
+                        Text(
+                          "Mahmoud Magdy Mohamed",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        )
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    width: 15,
+                  ),
+                  Container(
+                    width:65,
+                    child: Column(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              radius: 25.0,
+                              backgroundImage: NetworkImage(
+                                  "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/241676442_4279329582181382_2167552377324842210_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHolzVJU_kgehe0RERMWOUmkTuL3-uGRVeRO4vf64ZFV7MnMjlK29bRTA9Ifkrmb3TFDs4FcZMA0qjwQGnTKImI&_nc_ohc=euUN5OD0tCoAX9q1ZtX&_nc_ht=scontent.fcai19-8.fna&oh=00_AT-wghk5d0X2W_388n09iWyHoOWqSsA2GRAcLeBw1F90nA&oe=6301A72E"),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 6,
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.green,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          height: 6,
+                        ),
+                        Text(
+                          "Mahmoud Magdy Mohamed",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        )
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    width: 15,
+                  ),
+                  Container(
+                    width:65,
+                    child: Column(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              radius: 25.0,
+                              backgroundImage: NetworkImage(
+                                  "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/241676442_4279329582181382_2167552377324842210_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHolzVJU_kgehe0RERMWOUmkTuL3-uGRVeRO4vf64ZFV7MnMjlK29bRTA9Ifkrmb3TFDs4FcZMA0qjwQGnTKImI&_nc_ohc=euUN5OD0tCoAX9q1ZtX&_nc_ht=scontent.fcai19-8.fna&oh=00_AT-wghk5d0X2W_388n09iWyHoOWqSsA2GRAcLeBw1F90nA&oe=6301A72E"),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 6,
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.green,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          height: 6,
+                        ),
+                        Text(
+                          "Mahmoud Magdy Mohamed",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        )
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    width: 15,
+                  ),
+                  Container(
+                    width:65,
+                    child: Column(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              radius: 25.0,
+                              backgroundImage: NetworkImage(
+                                  "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/241676442_4279329582181382_2167552377324842210_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHolzVJU_kgehe0RERMWOUmkTuL3-uGRVeRO4vf64ZFV7MnMjlK29bRTA9Ifkrmb3TFDs4FcZMA0qjwQGnTKImI&_nc_ohc=euUN5OD0tCoAX9q1ZtX&_nc_ht=scontent.fcai19-8.fna&oh=00_AT-wghk5d0X2W_388n09iWyHoOWqSsA2GRAcLeBw1F90nA&oe=6301A72E"),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 6,
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.green,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          height: 6,
+                        ),
+                        Text(
+                          "Mahmoud Magdy Mohamed",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        )
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    width: 15,
+                  ),
+                  Container(
+                    width:65,
+                    child: Column(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              radius: 25.0,
+                              backgroundImage: NetworkImage(
+                                  "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/241676442_4279329582181382_2167552377324842210_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHolzVJU_kgehe0RERMWOUmkTuL3-uGRVeRO4vf64ZFV7MnMjlK29bRTA9Ifkrmb3TFDs4FcZMA0qjwQGnTKImI&_nc_ohc=euUN5OD0tCoAX9q1ZtX&_nc_ht=scontent.fcai19-8.fna&oh=00_AT-wghk5d0X2W_388n09iWyHoOWqSsA2GRAcLeBw1F90nA&oe=6301A72E"),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 6,
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.green,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          height: 6,
+                        ),
+                        Text(
+                          "Mahmoud Magdy Mohamed",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        )
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Expanded(
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    SizedBox(
+                      height: 30,
+                    ),
+                    Row(
+                      children: [
+                        Stack(
+                        alignment: AlignmentDirectional.bottomEnd,
+                        children: [
+                          CircleAvatar(
+                            radius: 25.0,
+                            backgroundImage: NetworkImage(
+                                "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/241676442_4279329582181382_2167552377324842210_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHolzVJU_kgehe0RERMWOUmkTuL3-uGRVeRO4vf64ZFV7MnMjlK29bRTA9Ifkrmb3TFDs4FcZMA0qjwQGnTKImI&_nc_ohc=euUN5OD0tCoAX9q1ZtX&_nc_ht=scontent.fcai19-8.fna&oh=00_AT-wghk5d0X2W_388n09iWyHoOWqSsA2GRAcLeBw1F90nA&oe=6301A72E"),
+                          ),
+                          CircleAvatar(
+                            backgroundColor: Colors.white,
+                            radius: 6,
+                          ),
+                          CircleAvatar(
+                            backgroundColor: Colors.green,
+                            radius: 5,
+                          ),
+                        ],
+                      ),
+                        SizedBox(
+                          width: 20,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                                "Mahmoud Magdy",
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold
+                              ),
+                                ),
+                            SizedBox(
+                              height: 3,
+                            ),
+                            Row(
+                              children: [
+                                Expanded(
+                                  child: Text(
+                                      "Na law tb2a m3aya bytrg el 2lb w ythz",
+                                    maxLines: 1,
+                                    overflow: TextOverflow.ellipsis,
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                                  child: Container(
+                                    width: 6,
+                                    height:6,
+                                    decoration: BoxDecoration(
+                                      color: Colors.black54,
+                                      shape: BoxShape.circle
+                                    ),
+                                  ),
+                                ),
+
+                                Text(
+                                    "12:34 Pm"
+                                ),
+
+                              ],
+                            )
+                          ],
+                          ),
+                        )
+                      ],
+                    ),
+                    SizedBox(
+                      height: 25,
+                    ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              radius: 25.0,
+                              backgroundImage: NetworkImage(
+                                  "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/241676442_4279329582181382_2167552377324842210_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHolzVJU_kgehe0RERMWOUmkTuL3-uGRVeRO4vf64ZFV7MnMjlK29bRTA9Ifkrmb3TFDs4FcZMA0qjwQGnTKImI&_nc_ohc=euUN5OD0tCoAX9q1ZtX&_nc_ht=scontent.fcai19-8.fna&oh=00_AT-wghk5d0X2W_388n09iWyHoOWqSsA2GRAcLeBw1F90nA&oe=6301A72E"),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 6,
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.green,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 20,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Mahmoud Magdy",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold
+                                ),
+                              ),
+                              SizedBox(
+                                height: 3,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "Na law tb2a m3aya bytrg el 2lb w ythz",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                                    child: Container(
+                                      width: 6,
+                                      height:6,
+                                      decoration: BoxDecoration(
+                                          color: Colors.black54,
+                                          shape: BoxShape.circle
+                                      ),
+                                    ),
+                                  ),
+
+                                  Text(
+                                      "12:34 Pm"
+                                  ),
+
+                                ],
+                              )
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
+                    SizedBox(
+                      height: 25,
+                    ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              radius: 25.0,
+                              backgroundImage: NetworkImage(
+                                  "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/241676442_4279329582181382_2167552377324842210_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHolzVJU_kgehe0RERMWOUmkTuL3-uGRVeRO4vf64ZFV7MnMjlK29bRTA9Ifkrmb3TFDs4FcZMA0qjwQGnTKImI&_nc_ohc=euUN5OD0tCoAX9q1ZtX&_nc_ht=scontent.fcai19-8.fna&oh=00_AT-wghk5d0X2W_388n09iWyHoOWqSsA2GRAcLeBw1F90nA&oe=6301A72E"),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 6,
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.green,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 20,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Mahmoud Magdy",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold
+                                ),
+                              ),
+                              SizedBox(
+                                height: 3,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "Na law tb2a m3aya bytrg el 2lb w ythz",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                                    child: Container(
+                                      width: 6,
+                                      height:6,
+                                      decoration: BoxDecoration(
+                                          color: Colors.black54,
+                                          shape: BoxShape.circle
+                                      ),
+                                    ),
+                                  ),
+
+                                  Text(
+                                      "12:34 Pm"
+                                  ),
+
+                                ],
+                              )
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
+                    SizedBox(
+                      height: 25,
+                    ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              radius: 25.0,
+                              backgroundImage: NetworkImage(
+                                  "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/241676442_4279329582181382_2167552377324842210_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHolzVJU_kgehe0RERMWOUmkTuL3-uGRVeRO4vf64ZFV7MnMjlK29bRTA9Ifkrmb3TFDs4FcZMA0qjwQGnTKImI&_nc_ohc=euUN5OD0tCoAX9q1ZtX&_nc_ht=scontent.fcai19-8.fna&oh=00_AT-wghk5d0X2W_388n09iWyHoOWqSsA2GRAcLeBw1F90nA&oe=6301A72E"),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 6,
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.green,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 20,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Mahmoud Magdy",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold
+                                ),
+                              ),
+                              SizedBox(
+                                height: 3,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "Na law tb2a m3aya bytrg el 2lb w ythz",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                                    child: Container(
+                                      width: 6,
+                                      height:6,
+                                      decoration: BoxDecoration(
+                                          color: Colors.black54,
+                                          shape: BoxShape.circle
+                                      ),
+                                    ),
+                                  ),
+
+                                  Text(
+                                      "12:34 Pm"
+                                  ),
+
+                                ],
+                              )
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
+                    SizedBox(
+                      height: 25,
+                    ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              radius: 25.0,
+                              backgroundImage: NetworkImage(
+                                  "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/241676442_4279329582181382_2167552377324842210_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHolzVJU_kgehe0RERMWOUmkTuL3-uGRVeRO4vf64ZFV7MnMjlK29bRTA9Ifkrmb3TFDs4FcZMA0qjwQGnTKImI&_nc_ohc=euUN5OD0tCoAX9q1ZtX&_nc_ht=scontent.fcai19-8.fna&oh=00_AT-wghk5d0X2W_388n09iWyHoOWqSsA2GRAcLeBw1F90nA&oe=6301A72E"),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 6,
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.green,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 20,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Mahmoud Magdy",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold
+                                ),
+                              ),
+                              SizedBox(
+                                height: 3,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "Na law tb2a m3aya bytrg el 2lb w ythz",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                                    child: Container(
+                                      width: 6,
+                                      height:6,
+                                      decoration: BoxDecoration(
+                                          color: Colors.black54,
+                                          shape: BoxShape.circle
+                                      ),
+                                    ),
+                                  ),
+
+                                  Text(
+                                      "12:34 Pm"
+                                  ),
+
+                                ],
+                              )
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
+                    SizedBox(
+                      height: 25,
+                    ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              radius: 25.0,
+                              backgroundImage: NetworkImage(
+                                  "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/241676442_4279329582181382_2167552377324842210_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHolzVJU_kgehe0RERMWOUmkTuL3-uGRVeRO4vf64ZFV7MnMjlK29bRTA9Ifkrmb3TFDs4FcZMA0qjwQGnTKImI&_nc_ohc=euUN5OD0tCoAX9q1ZtX&_nc_ht=scontent.fcai19-8.fna&oh=00_AT-wghk5d0X2W_388n09iWyHoOWqSsA2GRAcLeBw1F90nA&oe=6301A72E"),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 6,
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.green,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 20,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Mahmoud Magdy",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold
+                                ),
+                              ),
+                              SizedBox(
+                                height: 3,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "Na law tb2a m3aya bytrg el 2lb w ythz",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                                    child: Container(
+                                      width: 6,
+                                      height:6,
+                                      decoration: BoxDecoration(
+                                          color: Colors.black54,
+                                          shape: BoxShape.circle
+                                      ),
+                                    ),
+                                  ),
+
+                                  Text(
+                                      "12:34 Pm"
+                                  ),
+
+                                ],
+                              )
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
+                    SizedBox(
+                      height: 25,
+                    ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              radius: 25.0,
+                              backgroundImage: NetworkImage(
+                                  "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/241676442_4279329582181382_2167552377324842210_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHolzVJU_kgehe0RERMWOUmkTuL3-uGRVeRO4vf64ZFV7MnMjlK29bRTA9Ifkrmb3TFDs4FcZMA0qjwQGnTKImI&_nc_ohc=euUN5OD0tCoAX9q1ZtX&_nc_ht=scontent.fcai19-8.fna&oh=00_AT-wghk5d0X2W_388n09iWyHoOWqSsA2GRAcLeBw1F90nA&oe=6301A72E"),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 6,
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.green,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 20,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Mahmoud Magdy",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold
+                                ),
+                              ),
+                              SizedBox(
+                                height: 3,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "Na law tb2a m3aya bytrg el 2lb w ythz",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                                    child: Container(
+                                      width: 6,
+                                      height:6,
+                                      decoration: BoxDecoration(
+                                          color: Colors.black54,
+                                          shape: BoxShape.circle
+                                      ),
+                                    ),
+                                  ),
+
+                                  Text(
+                                      "12:34 Pm"
+                                  ),
+
+                                ],
+                              )
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+            ),
+
+
+
+
+
           ],
         ),
       ),
